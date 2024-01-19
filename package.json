@@ -1,0 +1,31 @@
+{
+  "name": "me-solid-stater",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@kobalte/core": "^0.12.1",
+    "@modular-forms/solid": "^0.20.0",
+    "@solidjs/router": "^0.10.9",
+    "@supabase/supabase-js": "^2.39.3",
+    "@tanstack/solid-query": "^5.17.15",
+    "@thisbeyond/solid-dnd": "^0.7.5",
+    "effect": "^2.1.2",
+    "localforage": "^1.10.0",
+    "node-fetch": "^3.3.2",
+    "partysocket": "^0.0.21",
+    "solid-js": "^1.8.7",
+    "valibot": "^0.26.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-solid": "^2.8.0"
+  }
+}
